@@ -1,0 +1,39 @@
+/*!
+Theme Name: alleducationschools
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: alleducationschools
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+alleducationschools is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/* override content margins on full-width pages */
+@media only screen and (min-width: 1024px) {
+	.has-fixed {
+		width: 60%;
+	}
+}
+
+/* override related reading image */
+.wp-block-aes-multipurpose-block .pt-cv-thumbnail {
+	height: auto;
+}
+
+@media only screen and (min-width: 1590px){
+  .show_mobile {
+    display: none;
+  }
+}
